@@ -15,8 +15,6 @@
 
 package sorting
 
-import java.util.Arrays
-
 object Distinct {
   def solution(A: Array[Int]): Int = {
     var re = 0
