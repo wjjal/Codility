@@ -21,7 +21,7 @@
 //expected worst-case time complexity is O((M+N)3);
 //expected worst-case space complexity is O(M*N).
 
-package challenges_2012
+package Challenges.challenges_2012
 
 import scala.math._
 

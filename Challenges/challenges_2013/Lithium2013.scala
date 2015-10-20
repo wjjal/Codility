@@ -29,7 +29,7 @@
 //expected worst-case time complexity is O(N*M*log(N+M));
 //expected worst-case space complexity is O(N*M).
 
-package challenges_2013
+package Challenges.challenges_2013
 
 import scala.math._
 import scala.collection.mutable.ArrayBuffer

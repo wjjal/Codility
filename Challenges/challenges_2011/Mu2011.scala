@@ -12,7 +12,7 @@
 //expected worst-case time complexity is O(L);
 //expected worst-case space complexity is O(L) (not counting the storage required for input arguments).
 
-package challenges_2011
+package Challenges.challenges_2011
 
 object Mu2011 {
   def main(args: Array[String]) {

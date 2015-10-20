@@ -1,10 +1,10 @@
 //The median of a sequence of numbers X[0], X[1], ..., X[N] is the middle element in terms of their values. More formally, the median of X[0], X[1], ..., X[N] is an element X[I] of the sequence, such that at most half of the elements are larger than X[I] and at most half of the elements are smaller than X[I]. For example, the median of the following sequence:
-//  X[0] = 7    X[1] = 2    X[2] = 5    X[3] = 2    X[4] = 8    
+//  X[0] = 7    X[1] = 2    X[2] = 5    X[3] = 2    X[4] = 8
 //is 5; the median of the following sequence:
-//  X[0] = 2    X[1] = 2    X[2] = 5    X[3] = 2       
+//  X[0] = 2    X[1] = 2    X[2] = 5    X[3] = 2
 //is 2; and the following sequence:
-//  X[0] = 1    X[1] = 5    X[2] = 7    
-//  X[3] = 4    X[4] = 2    X[5] = 8    
+//  X[0] = 1    X[1] = 5    X[2] = 7
+//  X[3] = 4    X[4] = 2    X[5] = 8
 //has two medians: 4 and 5.
 //Note that sequences of odd length have only one median, which is equal to X[N/2] after sorting X. In this problem we consider medians of sequences of odd length only.
 //Write a function:
@@ -17,7 +17,7 @@
 //  A[P[I]], A[P[I]+1], ..., A[Q[I]-1], A[Q[I]], B[R[I]], B[R[I]+1], ..., B[S[I]-1], B[S[I]]
 //for 0 ≤ I < K, and returns the median of all such medians.
 //For example, given the following arrays:
-//  A[0] = -2   A[1] = 4    A[2] = 10   A[3] = 13   
+//  A[0] = -2   A[1] = 4    A[2] = 10   A[3] = 13
 //  B[0] = 5    B[1] = 6    B[2] = 8    B[3] = 12    B[4] = 13
 //  P[0] = 2    P[1] = 1    P[2] = 0
 //  Q[0] = 3    Q[1] = 2    Q[2] = 3
@@ -43,7 +43,7 @@
 //expected worst-case space complexity is O(K), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2011
+package Challenges.challenges_2011
 
 object Nu2011 {
   def solution(A: Array[Int], B: Array[Int], P: Array[Int], Q: Array[Int], R: Array[Int], S: Array[Int]): Int = {

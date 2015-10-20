@@ -5,8 +5,8 @@
 //Write a function
 //object Solution { def solution(A: Array[Int]): Int }
 //that, given a zero-indexed array A consisting of N = 2*(M−1) integers representing the sequence in which M towns were visited last year, returns the number of different Hamiltonian routes possible this year.
-//The function should return 0 if no Hamiltonian route exists. 
-//The function should return −1 if the number of possible Hamiltonian routes exceeds 100,000,000. 
+//The function should return 0 if no Hamiltonian route exists.
+//The function should return −1 if the number of possible Hamiltonian routes exceeds 100,000,000.
 //The function should return −2 if the route described by the array A violates any of the following conditions:
 //each road connects distinct towns;
 //each town is visited either exactly once or exactly thrice;
@@ -57,7 +57,7 @@
 //可见http://blog.csdn.net/caopengcs/article/details/10041893分析
 //孩子节点的走法决定了父节点的走法，所以无论多少个节点，只有三个哈密尔顿圈
 
-package challenges_2011
+package Challenges.challenges_2011
 
 import scala.collection.mutable.Stack
 

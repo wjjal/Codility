@@ -8,19 +8,19 @@
 //object Solution { def solution(N: Int, A: Array[Int], B: Array[Int], C: Array[Int]): Int }
 //that, given integer N and arrays A, B and C, returns the number of seconds after which the current stops flowing between the nodes at (0, 0) and (N−1, N−1). If the current keeps flowing even after all M wires burn out, the function should return −1.
 //For example, given N = 4, M = 9 and the following arrays:
-//  A[0] = 0    B [0] = 0    C[0] = 0  
-//  A[1] = 1    B [1] = 1    C[1] = 1  
-//  A[2] = 1    B [2] = 1    C[2] = 0  
-//  A[3] = 2    B [3] = 1    C[3] = 0  
-//  A[4] = 3    B [4] = 2    C[4] = 0  
-//  A[5] = 2    B [5] = 2    C[5] = 1  
-//  A[6] = 1    B [6] = 3    C[6] = 1  
-//  A[7] = 0    B [7] = 1    C[7] = 0  
-//  A[8] = 0    B [8] = 0    C[8] = 1  
+//  A[0] = 0    B [0] = 0    C[0] = 0
+//  A[1] = 1    B [1] = 1    C[1] = 1
+//  A[2] = 1    B [2] = 1    C[2] = 0
+//  A[3] = 2    B [3] = 1    C[3] = 0
+//  A[4] = 3    B [4] = 2    C[4] = 0
+//  A[5] = 2    B [5] = 2    C[5] = 1
+//  A[6] = 1    B [6] = 3    C[6] = 1
+//  A[7] = 0    B [7] = 1    C[7] = 0
+//  A[8] = 0    B [8] = 0    C[8] = 1
 //your function should return 8, because just after the eighth wire burns out, there is no connection between the nodes at (0, 0) and (N−1, N−1). This situation is shown in the following figure:
 //
 //Given N = 4, M = 1 and the following arrays:
-//  A[0] = 0    B [0] = 0    C[0] = 0  
+//  A[0] = 0    B [0] = 0    C[0] = 0
 //your function should return −1, because burning out a single wire cannot break the connection between the nodes at (0, 0) and (N−1, N−1).
 //Assume that:
 //N is an integer within the range [1..400];
@@ -32,7 +32,7 @@
 //expected worst-case space complexity is O(N2), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2012
+package Challenges.challenges_2012
 
 import scala.collection.mutable.HashSet
 

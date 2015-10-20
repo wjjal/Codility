@@ -1,10 +1,10 @@
 //The Fibonacci sequence is defined by the following recursive formula:
-//F(0) = 0 
-//F(1) = 1 
-//F(N) = F(N−1) + F(N−2) for N ≥ 2 
+//F(0) = 0
+//F(1) = 1
+//F(N) = F(N−1) + F(N−2) for N ≥ 2
 //Write a function:
 //object Solution { def solution(N: Int, M: Int): Int }
-//that, given two non-negative integers N and M, returns a remainder of F(NM) modulo 10,000,103. 
+//that, given two non-negative integers N and M, returns a remainder of F(NM) modulo 10,000,103.
 //Note: 10,000,103 is a prime number.
 //For example, given N = 2 and M = 3, the function should return 21, since 23 = 8 and F(8) = 21.
 //Assume that:
@@ -13,7 +13,7 @@
 //expected worst-case time complexity is O(log(N+M));
 //expected worst-case space complexity is O(1).
 
-package challenges_2012
+package Challenges.challenges_2012
 
 object Omicron2012 {
   val mod = 10000103

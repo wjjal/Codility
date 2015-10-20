@@ -11,7 +11,7 @@
 //  A[0] = 1    A[1] = 2    A[2] = 0
 //  A[3] = 4    A[4] = 3    A[5] = 2
 //  A[6] = 1    A[7] = 5    A[8] = 7
-//  
+//
 //  B[0] = 2    B[1] = 8    B[2] = 0
 //  B[3] = 7    B[4] = 6    B[5] = 5
 //  B[6] = 3    B[7] = 4    B[8] = 5
@@ -30,7 +30,7 @@
 //H − max level of a cannonball.
 //Elements of input arrays can be modified.
 
-package challenges_2012
+package Challenges.challenges_2012
 
 import scala.math._
 

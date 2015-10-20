@@ -23,7 +23,7 @@
 //  (1b) 如果p[i'] >= right - i + 1,这时所得到的前缀可能更长，我们已经至少有p[i] >= p[i']了。我们继续比较(right + 1)和（i' + p[i']) …… 直到不match，然后更新right和left 。
 //（2） 如果我们发现right < i， 那么只好沿着i暴力比较前缀，可能的话，更新left和right。
 
-package challenges_2013
+package Challenges.challenges_2013
 
 import scala.math._
 

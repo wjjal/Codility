@@ -2,8 +2,8 @@
 //Write a function:
 //object Solution { def solution(A: Array[Int]): Int }
 //that, given an array A describing N discs as explained above, returns the number of pairs of intersecting discs. For example, given N=6 and:
-//A[0] = 1  A[1] = 5  A[2] = 2 
-//A[3] = 1  A[4] = 4  A[5] = 0  
+//A[0] = 1  A[1] = 5  A[2] = 2
+//A[3] = 1  A[4] = 4  A[5] = 0
 //intersecting discs appear in eleven pairs of elements:
 //0 and 1,
 //0 and 2,
@@ -26,7 +26,7 @@
 //expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2010
+package Challenges.challenges_2010
 
 object Beta2010 {
   def main(args: Array[String]) {

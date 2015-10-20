@@ -11,10 +11,10 @@
 //that, given arrays A, B, C and D, returns the minimum time (in seconds) needed to reach an open store. If it is impossible, it should return −1.
 //For example, given:
 //  A[0] = 0    B[0] = 1    C[0] = 2    D[0] = -1
-//  A[1] = 1    B[1] = 2    C[1] = 3    D[1] = 1  
+//  A[1] = 1    B[1] = 2    C[1] = 3    D[1] = 1
 //  A[2] = 3    B[2] = 2    C[2] = 4    D[2] = 3
 //  A[3] = 1    B[3] = 3    C[3] = 5    D[3] = 8
-//  A[4] = 2    B[4] = 0    C[4] = 7  
+//  A[4] = 2    B[4] = 0    C[4] = 7
 //  A[5] = 2    B[5] = 1    C[5] = 5
 //
 //the function should return 7. To reach the closest open shop you should follow the path: 0 −> 1 −> 3.
@@ -34,7 +34,7 @@
 //expected worst-case space complexity is O(N2), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2013
+package Challenges.challenges_2013
 
 object Hydrogenium2013 {
   def main(args: Array[String]) {

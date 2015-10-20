@@ -23,7 +23,7 @@
 //expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2012
+package Challenges.challenges_2012
 
 //笛卡尔树
 import scala.math._

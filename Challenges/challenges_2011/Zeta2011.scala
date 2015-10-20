@@ -38,7 +38,7 @@
 //一个盒子，如果它的状态是-1，一共b个球进入它的花，会有b/2个求从右面出去 b - b / 2个球从下面出去，
 //同理要是+1的话b个球有b/2个球从下面出去，b - b/2个球从右面出去
 
-package challenges_2011
+package Challenges.challenges_2011
 
 object Zeta2011 {
   def solution(A: Array[Array[Int]], K: Int): Int = {

@@ -39,7 +39,7 @@
 //expected worst-case space complexity is O(N+M+max(A)+max(B)), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2013
+package Challenges.challenges_2013
 
 import scala.math._
 

@@ -5,7 +5,7 @@
 //For example, for A = 42, a possible solution is [1, 2, 3, 6, 12, 24, 30, 42]. Another possible solution is [1, 2, 4, 5, 8, 16, 21, 42].
 //Write a function:
 //object Solution { def solution(A: Int): Array[Int] }
-//that, given an integer A, returns the shortest possible sequence of integers satisfying the above conditions and ending with A. 
+//that, given an integer A, returns the shortest possible sequence of integers satisfying the above conditions and ending with A.
 //The sequence should be returned as:
 //a structure Results (in C), or
 //a vector of integers (in C++), or
@@ -15,7 +15,7 @@
 //Assume that:
 //A is an integer within the range [1..600].
 
-package challenges_2012
+package Challenges.challenges_2012
 
 import scala.collection.mutable.Stack
 

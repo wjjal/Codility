@@ -32,7 +32,7 @@
 //expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2014
+package Challenges.challenges_2014
 
 import scala.collection.mutable._
 

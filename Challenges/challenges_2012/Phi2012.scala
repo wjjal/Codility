@@ -18,7 +18,7 @@
 //expected worst-case time complexity is O(log(N)*8M);
 //expected worst-case space complexity is O(4M).
 
-package challenges_2012
+package Challenges.challenges_2012
 
 object Phi2012 {
   def main(args: Array[String]) {

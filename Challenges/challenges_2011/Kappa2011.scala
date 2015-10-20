@@ -30,7 +30,7 @@
 //expected worst-case space complexity is O(N+max(T)), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package challenges_2011
+package Challenges.challenges_2011
 
 object Kappa2011 {
   val M = 1410000017
