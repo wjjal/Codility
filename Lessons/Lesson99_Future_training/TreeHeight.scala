@@ -19,7 +19,7 @@
 //expected worst-case time complexity is O(N);
 //expected worst-case space complexity is O(N).
 
-package future_training
+package Lessons.Lesson99_Future_training
 
 import scala.math._
 

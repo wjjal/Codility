@@ -16,7 +16,7 @@
 //expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 //Elements of input arrays can be modified.
 
-package future_training
+package Lessons.Lesson99_Future_training
 
 object ArrayInversionCount {
   def main(args: Array[String]) {

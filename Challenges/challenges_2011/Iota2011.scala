@@ -37,7 +37,7 @@ import scala.collection.mutable.HashMap
 import scala.collection.mutable.HashSet
 import scala.collection.mutable.Queue
 
-object iota2011 {
+object Iota2011 {
   def main(args: Array[String]) {
     val A = Array(1, 10, 6, 5, 10, 7, 5, 2)
     println(solution(A))
