@@ -14,7 +14,7 @@
 //expected worst-case time complexity is O(length(S));
 //expected worst-case space complexity is O(1) (not counting the storage required for input arguments).
 
-package Lessons.Lesson99_Future_training
+package future_training
 
 object StrSymmetryPoint {
   def solution(S: String): Int = {
